@@ -17,7 +17,7 @@ export const addAffectedWatchQueriesAsRelatedOperations = (
   rawData: IApolloInspectorState,
   setVerboseApolloOperations: ISetVerboseApolloOperations,
   operationId: number,
-  cleanUps: (() => void)[]
+  cleanUps: (() => void)[],
 ) => {
   const watchQueries = getApolloQueryManager(clientObj.client).queries;
 

@@ -1,5 +1,5 @@
 {
-  "name": "apollo-inspector",
+  "name": "@pavelglac/apollo-inspector",
   "version": "2.0.0",
   "description": "Tool to track apollo client operations",
   "main": "dist/main.js",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpsahoo14/apollo-inspector.git"
+    "url": "https://github.com/pavelglac/apollo-inspector.git"
   },
   "devDependencies": {
     "@apollo/client": "3.13.9",
